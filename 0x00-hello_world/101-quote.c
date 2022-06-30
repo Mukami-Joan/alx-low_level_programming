@@ -2,30 +2,30 @@
 
 #include <string.h>
 
-#include <unistd.h>
+
 
 /**
  *
- *  * main - main block
+ *  * main - Entry point
  *
- *   * Return: 1
+ *   *
  *
- *    */
+ *    * Return: Always 0 (Success)
+ *
+ *     */
 
 int main(void)
 
 {
 
-		int s = strlen("and that piece of art is useful - Dora Korpar, 2015-10-19\n");
+		char *str = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
+			size_t len = strlen(str);
 
+				/* Starting main */
 
-			write(2,
+				fwrite(str, len, 1, stderr);
 
-						      "and that piece of art is useful - Dora Korpar, 2015-10-19\n",
-
-						      	      s);
-
-				return (1);
+					return (1);
 
 }
