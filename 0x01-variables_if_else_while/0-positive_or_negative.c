@@ -5,14 +5,10 @@
 #include <stdlib.h>
 
 /**
- *
- *  * main - main block
- *
- *   * Description: Get a random number and print the number
- *
- *     * Return: 0
- *
- *      */
+ * main - Entry point
+ * This program will assign a random number to the variable n
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
