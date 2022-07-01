@@ -8,12 +8,7 @@
 
 int main(void)
 {
-	int number;
-
-	for (number = 0; number < 10; number++)
-		printf("%d", number);
-
-	printf('\n');
+	printf("0123456789\n");
 
 	return (0);
 }
