@@ -5,8 +5,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description - generating random numbers
- * Return - Always 0 (success)
+ * Description -generating random numbers
+ * Return: Always 0 (success)
  */
 
 
@@ -23,7 +23,6 @@ int main(void)
 
 				n = rand() - RAND_MAX / 2;
 
-					/* your code goes there */
 
 					if (n > 0)
 
