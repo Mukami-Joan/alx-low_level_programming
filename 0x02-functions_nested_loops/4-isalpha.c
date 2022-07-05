@@ -2,6 +2,8 @@
 /**
  * _isalpha - checks alphabetical order
  * @c: character to be checked
+ *
+ * Return: success 1 fail 0
  */
 int _isalpha(int c)
 {
