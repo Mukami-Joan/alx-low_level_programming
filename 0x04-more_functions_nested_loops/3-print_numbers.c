@@ -2,7 +2,6 @@
 /**
  * print_numbers - printing numbers
  *
- * Return: always 0
  */
 void print_numbers(void)
 {
@@ -12,6 +11,4 @@ void print_numbers(void)
 		_putchar((c % 10) + '0');
 
 	_putchar('\n');
-
-	return (0);
 }
